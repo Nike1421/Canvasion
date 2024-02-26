@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C85CEF552B8C11730077BB23 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = C85CEF542B8C11730077BB23 /* RealityKitContent */; };
+		C85CEF572B8C11730077BB23 /* CanvasionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CEF562B8C11730077BB23 /* CanvasionApp.swift */; };
+		C85CEF592B8C11730077BB23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CEF582B8C11730077BB23 /* ContentView.swift */; };
+		C85CEF5B2B8C11740077BB23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C85CEF5A2B8C11740077BB23 /* Assets.xcassets */; };
+		C85CEF5E2B8C11740077BB23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C85CEF5D2B8C11740077BB23 /* Preview Assets.xcassets */; };
+		C85CEF692B8C11740077BB23 /* CanvasionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CEF682B8C11740077BB23 /* CanvasionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C85CEF652B8C11740077BB23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C85CEF472B8C11730077BB23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85CEF4E2B8C11730077BB23;
+			remoteInfo = Canvasion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C85CEF4F2B8C11730077BB23 /* Canvasion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canvasion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85CEF532B8C11730077BB23 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		C85CEF562B8C11730077BB23 /* CanvasionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasionApp.swift; sourceTree = "<group>"; };
+		C85CEF582B8C11730077BB23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C85CEF5A2B8C11740077BB23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C85CEF5D2B8C11740077BB23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C85CEF5F2B8C11740077BB23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C85CEF642B8C11740077BB23 /* CanvasionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85CEF682B8C11740077BB23 /* CanvasionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasionTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C85CEF4C2B8C11730077BB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85CEF552B8C11730077BB23 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85CEF612B8C11740077BB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C85CEF462B8C11730077BB23 = {
+			isa = PBXGroup;
+			children = (
+				C85CEF512B8C11730077BB23 /* Canvasion */,
+				C85CEF522B8C11730077BB23 /* Packages */,
+				C85CEF672B8C11740077BB23 /* CanvasionTests */,
+				C85CEF502B8C11730077BB23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C85CEF502B8C11730077BB23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C85CEF4F2B8C11730077BB23 /* Canvasion.app */,
+				C85CEF642B8C11740077BB23 /* CanvasionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C85CEF512B8C11730077BB23 /* Canvasion */ = {
+			isa = PBXGroup;
+			children = (
+				C85CEF562B8C11730077BB23 /* CanvasionApp.swift */,
+				C85CEF582B8C11730077BB23 /* ContentView.swift */,
+				C85CEF5A2B8C11740077BB23 /* Assets.xcassets */,
+				C85CEF5F2B8C11740077BB23 /* Info.plist */,
+				C85CEF5C2B8C11740077BB23 /* Preview Content */,
+			);
+			path = Canvasion;
+			sourceTree = "<group>";
+		};
+		C85CEF522B8C11730077BB23 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				C85CEF532B8C11730077BB23 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		C85CEF5C2B8C11740077BB23 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C85CEF5D2B8C11740077BB23 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C85CEF672B8C11740077BB23 /* CanvasionTests */ = {
+			isa = PBXGroup;
+			children = (
+				C85CEF682B8C11740077BB23 /* CanvasionTests.swift */,
+			);
+			path = CanvasionTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C85CEF4E2B8C11730077BB23 /* Canvasion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85CEF6C2B8C11740077BB23 /* Build configuration list for PBXNativeTarget "Canvasion" */;
+			buildPhases = (
+				C85CEF4B2B8C11730077BB23 /* Sources */,
+				C85CEF4C2B8C11730077BB23 /* Frameworks */,
+				C85CEF4D2B8C11730077BB23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Canvasion;
+			packageProductDependencies = (
+				C85CEF542B8C11730077BB23 /* RealityKitContent */,
+			);
+			productName = Canvasion;
+			productReference = C85CEF4F2B8C11730077BB23 /* Canvasion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C85CEF632B8C11740077BB23 /* CanvasionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85CEF6F2B8C11740077BB23 /* Build configuration list for PBXNativeTarget "CanvasionTests" */;
+			buildPhases = (
+				C85CEF602B8C11740077BB23 /* Sources */,
+				C85CEF612B8C11740077BB23 /* Frameworks */,
+				C85CEF622B8C11740077BB23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C85CEF662B8C11740077BB23 /* PBXTargetDependency */,
+			);
+			name = CanvasionTests;
+			productName = CanvasionTests;
+			productReference = C85CEF642B8C11740077BB23 /* CanvasionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C85CEF472B8C11730077BB23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C85CEF4E2B8C11730077BB23 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C85CEF632B8C11740077BB23 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C85CEF4E2B8C11730077BB23;
+					};
+				};
+			};
+			buildConfigurationList = C85CEF4A2B8C11730077BB23 /* Build configuration list for PBXProject "Canvasion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C85CEF462B8C11730077BB23;
+			productRefGroup = C85CEF502B8C11730077BB23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C85CEF4E2B8C11730077BB23 /* Canvasion */,
+				C85CEF632B8C11740077BB23 /* CanvasionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C85CEF4D2B8C11730077BB23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85CEF5E2B8C11740077BB23 /* Preview Assets.xcassets in Resources */,
+				C85CEF5B2B8C11740077BB23 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85CEF622B8C11740077BB23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C85CEF4B2B8C11730077BB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85CEF592B8C11730077BB23 /* ContentView.swift in Sources */,
+				C85CEF572B8C11730077BB23 /* CanvasionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85CEF602B8C11740077BB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85CEF692B8C11740077BB23 /* CanvasionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C85CEF662B8C11740077BB23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85CEF4E2B8C11730077BB23 /* Canvasion */;
+			targetProxy = C85CEF652B8C11740077BB23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C85CEF6A2B8C11740077BB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		C85CEF6B2B8C11740077BB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		C85CEF6D2B8C11740077BB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Canvasion/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uci.odit.Canvasion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		C85CEF6E2B8C11740077BB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Canvasion/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uci.odit.Canvasion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		C85CEF702B8C11740077BB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uci.odit.CanvasionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Canvasion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Canvasion";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		C85CEF712B8C11740077BB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uci.odit.CanvasionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Canvasion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Canvasion";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C85CEF4A2B8C11730077BB23 /* Build configuration list for PBXProject "Canvasion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85CEF6A2B8C11740077BB23 /* Debug */,
+				C85CEF6B2B8C11740077BB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85CEF6C2B8C11740077BB23 /* Build configuration list for PBXNativeTarget "Canvasion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85CEF6D2B8C11740077BB23 /* Debug */,
+				C85CEF6E2B8C11740077BB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85CEF6F2B8C11740077BB23 /* Build configuration list for PBXNativeTarget "CanvasionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85CEF702B8C11740077BB23 /* Debug */,
+				C85CEF712B8C11740077BB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C85CEF542B8C11730077BB23 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C85CEF472B8C11730077BB23 /* Project object */;
+}
