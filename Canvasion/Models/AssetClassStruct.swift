@@ -11,26 +11,26 @@ struct AssetClassStruct: Identifiable, Hashable {
     let id = UUID()
 }
 
-var stocksAssetClass = AssetClassStruct(title: "Stocks")
-var cryptoAssetClass = AssetClassStruct(title: "Crypto")
+var assignmentAssetClass = AssetClassStruct(title: "Assignments")
+var filesAssetClass = AssetClassStruct(title: "Files")
 var optionsAssetClass = AssetClassStruct(title: "Options")
 
 extension AssetClassStruct {
 
     static var listAll: [AssetClassStruct] {
         [
-         cryptoAssetClass,
-         stocksAssetClass,
+         assignmentAssetClass,
+         filesAssetClass,
          optionsAssetClass
         ]
     }
 
-    static var stocks: AssetClassStruct {
-        return stocksAssetClass
+    static var assignments: AssetClassStruct {
+        return assignmentAssetClass
     }
 
-    static var crypto: AssetClassStruct {
-        return cryptoAssetClass
+    static var files: AssetClassStruct {
+        return filesAssetClass
     }
 
     static var options: AssetClassStruct {
@@ -38,12 +38,12 @@ extension AssetClassStruct {
     }
 
     // TODO: better way?
-    var isStocks: Bool {
-        return self.id == stocksAssetClass.id
+    var isAssignments: Bool {
+        return self.id == assignmentAssetClass.id
     }
 
-    var isCrypto: Bool {
-        return self.id == cryptoAssetClass.id
+    var isFiles: Bool {
+        return self.id == filesAssetClass.id
     }
 
     var isOptions: Bool {

@@ -13,6 +13,7 @@
 		C8307A262B958EAF00D203CD /* APIResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8307A252B958EAF00D203CD /* APIResponses.swift */; };
 		C8307A282B9596B200D203CD /* UserSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8307A272B9596B200D203CD /* UserSettingsModel.swift */; };
 		C8307A2A2B969E3F00D203CD /* CourseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8307A292B969E3F00D203CD /* CourseListView.swift */; };
+		C8307A2C2B96CD9100D203CD /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8307A2B2B96CD9100D203CD /* CourseView.swift */; };
 		C85CEF552B8C11730077BB23 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = C85CEF542B8C11730077BB23 /* RealityKitContent */; };
 		C85CEF572B8C11730077BB23 /* CanvasionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CEF562B8C11730077BB23 /* CanvasionApp.swift */; };
 		C85CEF592B8C11730077BB23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CEF582B8C11730077BB23 /* ContentView.swift */; };
@@ -39,6 +40,7 @@
 		C8307A252B958EAF00D203CD /* APIResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponses.swift; sourceTree = "<group>"; };
 		C8307A272B9596B200D203CD /* UserSettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsModel.swift; sourceTree = "<group>"; };
 		C8307A292B969E3F00D203CD /* CourseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListView.swift; sourceTree = "<group>"; };
+		C8307A2B2B96CD9100D203CD /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		C85CEF4F2B8C11730077BB23 /* Canvasion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canvasion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85CEF532B8C11730077BB23 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		C85CEF562B8C11730077BB23 /* CanvasionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasionApp.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				C85CEF582B8C11730077BB23 /* ContentView.swift */,
 				C828000B2B9579D70057B47D /* CustomCourseButton.swift */,
 				C8307A292B969E3F00D203CD /* CourseListView.swift */,
+				C8307A2B2B96CD9100D203CD /* CourseView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				C85CEF572B8C11730077BB23 /* CanvasionApp.swift in Sources */,
 				C828000C2B9579D70057B47D /* CustomCourseButton.swift in Sources */,
 				C8307A2A2B969E3F00D203CD /* CourseListView.swift in Sources */,
+				C8307A2C2B96CD9100D203CD /* CourseView.swift in Sources */,
 				C8307A262B958EAF00D203CD /* APIResponses.swift in Sources */,
 				C8307A242B958E2E00D203CD /* APIClient.swift in Sources */,
 			);
