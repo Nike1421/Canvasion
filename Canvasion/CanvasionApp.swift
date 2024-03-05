@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct CanvasionApp: App {
+    @Bindable var userSettings: UserSettingsModel = UserSettingsModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(userSettings: userSettings)
         }
     }
 }

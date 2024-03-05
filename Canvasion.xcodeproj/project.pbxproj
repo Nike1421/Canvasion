@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C828000C2B9579D70057B47D /* CustomCourseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C828000B2B9579D70057B47D /* CustomCourseButton.swift */; };
+		C828000E2B957C430057B47D /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = C828000D2B957C430057B47D /* Course.swift */; };
+		C8307A242B958E2E00D203CD /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8307A232B958E2E00D203CD /* APIClient.swift */; };
+		C8307A262B958EAF00D203CD /* APIResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8307A252B958EAF00D203CD /* APIResponses.swift */; };
+		C8307A282B9596B200D203CD /* UserSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8307A272B9596B200D203CD /* UserSettingsModel.swift */; };
+		C8307A2A2B969E3F00D203CD /* CourseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8307A292B969E3F00D203CD /* CourseListView.swift */; };
 		C85CEF552B8C11730077BB23 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = C85CEF542B8C11730077BB23 /* RealityKitContent */; };
 		C85CEF572B8C11730077BB23 /* CanvasionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CEF562B8C11730077BB23 /* CanvasionApp.swift */; };
 		C85CEF592B8C11730077BB23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CEF582B8C11730077BB23 /* ContentView.swift */; };
 		C85CEF5B2B8C11740077BB23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C85CEF5A2B8C11740077BB23 /* Assets.xcassets */; };
 		C85CEF5E2B8C11740077BB23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C85CEF5D2B8C11740077BB23 /* Preview Assets.xcassets */; };
 		C85CEF692B8C11740077BB23 /* CanvasionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CEF682B8C11740077BB23 /* CanvasionTests.swift */; };
+		C85CEF742B8C14010077BB23 /* AssetClassStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CEF732B8C14010077BB23 /* AssetClassStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C828000B2B9579D70057B47D /* CustomCourseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCourseButton.swift; sourceTree = "<group>"; };
+		C828000D2B957C430057B47D /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		C8307A232B958E2E00D203CD /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		C8307A252B958EAF00D203CD /* APIResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponses.swift; sourceTree = "<group>"; };
+		C8307A272B9596B200D203CD /* UserSettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsModel.swift; sourceTree = "<group>"; };
+		C8307A292B969E3F00D203CD /* CourseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListView.swift; sourceTree = "<group>"; };
 		C85CEF4F2B8C11730077BB23 /* Canvasion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canvasion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85CEF532B8C11730077BB23 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		C85CEF562B8C11730077BB23 /* CanvasionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasionApp.swift; sourceTree = "<group>"; };
@@ -35,6 +48,7 @@
 		C85CEF5F2B8C11740077BB23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C85CEF642B8C11740077BB23 /* CanvasionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85CEF682B8C11740077BB23 /* CanvasionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasionTests.swift; sourceTree = "<group>"; };
+		C85CEF732B8C14010077BB23 /* AssetClassStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetClassStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C8307A212B958DA700D203CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C85CEF582B8C11730077BB23 /* ContentView.swift */,
+				C8307A292B969E3F00D203CD /* CourseListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C8307A222B958DB500D203CD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C8307A232B958E2E00D203CD /* APIClient.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		C85CEF462B8C11730077BB23 = {
 			isa = PBXGroup;
 			children = (
@@ -78,11 +109,14 @@
 		C85CEF512B8C11730077BB23 /* Canvasion */ = {
 			isa = PBXGroup;
 			children = (
+				C8307A222B958DB500D203CD /* Helpers */,
+				C8307A212B958DA700D203CD /* Views */,
+				C85CEF722B8C13E60077BB23 /* Models */,
 				C85CEF562B8C11730077BB23 /* CanvasionApp.swift */,
-				C85CEF582B8C11730077BB23 /* ContentView.swift */,
 				C85CEF5A2B8C11740077BB23 /* Assets.xcassets */,
 				C85CEF5F2B8C11740077BB23 /* Info.plist */,
 				C85CEF5C2B8C11740077BB23 /* Preview Content */,
+				C828000B2B9579D70057B47D /* CustomCourseButton.swift */,
 			);
 			path = Canvasion;
 			sourceTree = "<group>";
@@ -109,6 +143,17 @@
 				C85CEF682B8C11740077BB23 /* CanvasionTests.swift */,
 			);
 			path = CanvasionTests;
+			sourceTree = "<group>";
+		};
+		C85CEF722B8C13E60077BB23 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C85CEF732B8C14010077BB23 /* AssetClassStruct.swift */,
+				C828000D2B957C430057B47D /* Course.swift */,
+				C8307A252B958EAF00D203CD /* APIResponses.swift */,
+				C8307A272B9596B200D203CD /* UserSettingsModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +260,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C85CEF592B8C11730077BB23 /* ContentView.swift in Sources */,
+				C85CEF742B8C14010077BB23 /* AssetClassStruct.swift in Sources */,
+				C828000E2B957C430057B47D /* Course.swift in Sources */,
+				C8307A282B9596B200D203CD /* UserSettingsModel.swift in Sources */,
 				C85CEF572B8C11730077BB23 /* CanvasionApp.swift in Sources */,
+				C828000C2B9579D70057B47D /* CustomCourseButton.swift in Sources */,
+				C8307A2A2B969E3F00D203CD /* CourseListView.swift in Sources */,
+				C8307A262B958EAF00D203CD /* APIResponses.swift in Sources */,
+				C8307A242B958E2E00D203CD /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
