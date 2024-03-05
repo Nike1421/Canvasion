@@ -74,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				C85CEF582B8C11730077BB23 /* ContentView.swift */,
+				C828000B2B9579D70057B47D /* CustomCourseButton.swift */,
 				C8307A292B969E3F00D203CD /* CourseListView.swift */,
 			);
 			path = Views;
@@ -116,7 +117,6 @@
 				C85CEF5A2B8C11740077BB23 /* Assets.xcassets */,
 				C85CEF5F2B8C11740077BB23 /* Info.plist */,
 				C85CEF5C2B8C11740077BB23 /* Preview Content */,
-				C828000B2B9579D70057B47D /* CustomCourseButton.swift */,
 			);
 			path = Canvasion;
 			sourceTree = "<group>";

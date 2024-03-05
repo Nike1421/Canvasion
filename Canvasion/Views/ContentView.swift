@@ -47,12 +47,12 @@ struct ContentView: View {
                         }
                     }
                     }
-                }
-            }.navigationTitle("HIHIHI")
+                }.navigationTitle("Canvas Application")
                 .padding()
                 .task{
-                    print("dsds")
+        
                     await fetchCourses()
+            }
                 
         }
     }
